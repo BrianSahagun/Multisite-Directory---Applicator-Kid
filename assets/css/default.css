@@ -1,0 +1,72 @@
+/*------------------ Visually Hidden ------------------*/
+.visually-hidden,
+.view--multisite-directory .main-content-heading,
+.multisite---h,
+.site-preview---h,
+.site-main-info---h,
+.site-main-description
+{
+    position:absolute;margin:-1px;padding:0;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);border:0;word-wrap:normal;
+}
+
+
+
+
+
+/*------------------ Active Area (AA) ------------------*/
+.active-area,
+.site-main-name---a_l,
+.site-main-desc---a_l
+{
+    box-sizing: border-box;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    min-width: var(--active-area--width--md);
+    min-height: var(--active-area--width--md);
+}
+
+
+
+
+
+/*------------------ Site Preview ------------------*/
+.site-preview---cr
+{
+    padding-top: var(--component--spacing-y);
+    padding-bottom: var(--component--spacing-y);
+}
+
+
+
+
+
+/*------------------ Site Main Name ------------------*/
+.site-main-name
+{
+    padding: var(--object--spacing--md);
+}
+
+
+
+
+
+/*------------------ Site Main Description ------------------*/
+.site-main-description
+{
+    padding-left: var(--object--spacing-x);
+    padding-right: var(--object--spacing-x);
+}
+
+
+
+
+
+/*------------------ Main Search ------------------*/
+.main-search-func .search-term-crt-search---input-text:focus
+{
+    outline: 0;
+}
