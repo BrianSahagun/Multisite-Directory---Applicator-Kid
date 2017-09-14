@@ -60,13 +60,3 @@
     padding-left: var(--object--spacing-x);
     padding-right: var(--object--spacing-x);
 }
-
-
-
-
-
-/*------------------ Main Search ------------------*/
-.main-search-func .search-term-crt-search---input-text:focus
-{
-    outline: 0;
-}
