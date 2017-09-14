@@ -146,15 +146,3 @@
 {
     color: var(--links--fg-color);
 }
-
-
-
-
-
-.main-menu--active .main-menu-toggle
-{
-    left: auto;
-    right: 0;
-    
-    color: white;
-}
