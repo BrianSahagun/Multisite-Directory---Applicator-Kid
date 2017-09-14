@@ -126,14 +126,20 @@
 
 
 /*------------------ Site ------------------*/
-.view--multisite-directory .site-main-name
+.site-preview a
+{
+    color: var(--links--fg-color);
+}
+
+.site-main-name
 {
     text-align: center;
 }
 
-.view--multisite-directory .site-main-name---a
+.site-preview .site-main-name---a
 {
     color: var(--off-black--color-a);
+    
     text-decoration: none;
 }
 
@@ -145,4 +151,20 @@
 .site-preview a
 {
     color: var(--links--fg-color);
+}
+
+.site-main-description
+{
+    margin-top: calc( (var(--object--spacing-y) * 2) * -1 ) ;
+    
+    font-size: var(--font-size--sm);
+    
+    text-align: center;
+}
+
+.site-preview .site-main-desc---a
+{
+    color: var(--faint-color--pri);
+    
+    text-decoration: none;
 }
