@@ -68,7 +68,7 @@ $post_classes = implode( ' ', $post_classes );
                 ) );
                 
                 
-                echo applicator_func_post_banner_visual();
+                echo applicator_post_banner_visual();
 
                 ?>
 

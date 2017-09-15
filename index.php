@@ -56,7 +56,7 @@ if ( is_multisite() && ( is_front_page() || is_page_template( 'index.php' ) ) ) 
             ) );
 
             // Main Content Header Aside | inc > tags > aside.php
-            echo applicator_func_main_content_header_aside();
+            echo applicator_main_content_header_aside();
             ?> 
 
         </div>
@@ -198,7 +198,7 @@ if ( is_multisite() && ( is_front_page() || is_page_template( 'index.php' ) ) ) 
                     'post_type'         => 'post',
                     'post_status'       => 'publish',
                     'order'             => 'DESC',
-                    'posts_per_page'    => 5,
+                    'posts_per_page'    => 3,
                 );
 
                 $the_query = new WP_Query( $args );
