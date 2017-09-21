@@ -41,7 +41,7 @@ function applicator_kid_multisite_directory_styles() {
     // Snapon Style Theme
     if ( is_multisite() && ( is_front_page() || is_page_template( 'index.php' ) ) ) {
         
-        wp_enqueue_style( 'applicator-snapon--applicator-style--theme--main-menu-func--magazine-header', trailingslashit( get_template_directory_uri() ). 'snapons/applicator/assets/css/main-menu-func_magazine-header.css', array( 'applicator-snapon--applicator-style' ) );
+        wp_enqueue_style( 'applicator-snapon--applicator-style--theme--main-menu-func--magazine-header', trailingslashit( get_template_directory_uri() ). 'snapons/applicator/assets/css/main-header_magazine.css', array( 'applicator-snapon--applicator-style' ) );
     }
 }
 add_action('wp_enqueue_scripts', 'applicator_kid_multisite_directory_styles', 0);
